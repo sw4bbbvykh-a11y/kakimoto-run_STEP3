@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+    background-color: #faf8f5;
+    color: #333333;
+    font-family: "Yu Gothic", sans-serif;
+    line-height: 1.8;
+    margin: 0;
+}
+header {
+    background-color: #3b5323;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+header nav a:hover {
+    color: #d2b48c;
+}
+section {
+    margin-bottom: 60px;
+}
+h2 {
+    border-bottom: 2px; solid #3b5323;
+    padding-bottom: 8px;
+}
+img{
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+#menu div {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+    text-align: center;
+}
+#menu div {
+    transform: translateY(-5px);
+}
+from div {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    height: 120px;
+}
+
+button[type="submit"]{
+    width: 100%;
+    background-color: #3b5323;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover{
+    background-color: #2c3f1a;
+}
+
+footer{
+    background-color: #2b381e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- 文字コードをUTF-8に設定 -->
+  <meta charset="UTF-8">
+  <!-- モバイルでも見やすくする設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML総合練習ページ</title>
+  <!-- CSSファイルの読み込み -->
+  <link rel="stylesheet" href="style_anser.css">
+</head>
+<body>
+
+  <!-- サイト全体のヘッダー -->
+  <header>
+    <h1>HTML総合練習ページ</h1>
+    <p>HTMLの基本タグをまとめて練習できます。</p>
+  </header>
+
+  <!-- ナビゲーション -->
+  <nav>
+    <ul>
+      <li><a href="#section1">画像・改行・強調</a></li>
+      <li><a href="#section2">表（table）</a></li>
+      <li><a href="#section3">フォーム</a></li>
+    </ul>
+  </nav>
+
+  <!-- メインコンテンツ -->
+  <main>
+
+    <!-- セクション1：画像・改行・強調 -->
+    <section id="section1">
+      <h2>画像・改行・強調の例</h2>
+
+      <h3>画像（img）タグの例</h3>
+      <!-- 画像がない場合は代替テキストが表示されます -->
+      <img src="sample.jpg" alt="サンプル画像" width="300">
+
+      <h3>改行（br）タグの例</h3>
+      <p>改行前の文章です。<br>改行後の文章です。</p>
+
+      <h3>強調（strong, em, markなど）の例</h3>
+      <p><strong>これは強調（太字）です。</strong></p>
+      <p><em>これは斜体（強調）です。</em></p>
+      <p><mark>これはハイライトされたテキストです。</mark></p>
+      <p><small>これは小さい文字です。</small></p>
+    </section>
+
+    <!-- セクション2：表（table）の例 -->
+    <section id="section2">
+      <h2>表（table）の例</h2>
+      <table border="2">
+        <tr>
+          <th>名前</th>
+          <th>年齢</th>
+          <th>職業</th>
+        </tr>
+        <tr>
+          <td>山田</td>
+          <td>28</td>
+          <td>エンジニア</td>
+        </tr>
+        <tr>
+          <td>佐藤</td>
+          <td>35</td>
+          <td>デザイナー</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- セクション3：フォームの例 -->
+    <section id="section3">
+      <h2>フォームの例</h2>
+      <form action="#" method="post">
+        <!-- テキスト入力 -->
+        <label for="name">名前：</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- メール入力 -->
+        <label for="email">メール：</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- テキストエリア -->
+        <label for="message">メッセージ：</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+        <!-- セレクトボックス -->
+        <label for="job">職業：</label>
+        <select id="job" name="job">
+          <option value="student">学生</option>
+          <option value="engineer">エンジニア</option>
+          <option value="other">その他</option>
+        </select><br><br>
+
+        <!-- 送信ボタン -->
+        <button type="submit">送信</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- 補足情報（aside） -->
+  <aside>
+    <h2>補足情報</h2>
+    <p>ここには広告や補足説明などを入れることができます。</p>
+  </aside>
+
+  <!-- サイト全体のフッター -->
+  <footer>
+    <p>&copy; 2025 HTML Training Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

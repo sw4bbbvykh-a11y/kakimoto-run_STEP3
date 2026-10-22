@@ -1,0 +1,127 @@
+/* 全体のベース設定 */
+body {
+    font-family: "Yu Gothic", "Helvetica", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 全体の余白 */
+  main, section, header, footer, aside, nav {
+    padding: 20px;
+  }
+  
+  /* ヘッダーのデザイン */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+  }
+  
+  /* ナビゲーションのデザイン */
+  nav {
+    background-color: #eee;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  /* 各セクションの見出し */
+  section h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  /* 画像の調整 */
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  
+  /* 表（テーブル）のデザイン */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  /* フォームのスタイル */
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* aside（補足情報） */
+  aside {
+    background-color: #f1f1f1;
+    border-left: 5px solid #4CAF50;
+    margin: 30px 20px;
+    padding: 15px;
+  }
+  
+  /* フッターのスタイル */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
