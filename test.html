@@ -2,62 +2,72 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TNG CAFE</title>
     <link rel="stylesheet" href="test.css">
 </head>
 <body>
+
     <header>
         <h1>TNG CAFE</h1>
-        <p>心安らぐいっぱいをあなたに</p>
+        <p>心安らぐ一杯をあなたに</p>
         <nav>
             <ul>
-                <li><a href="#about">about Us</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section id="about">
-            <h2>about Us</h2>
-            <p>TNGCafeは自然の香りに包まれたリラックス空間を提供しています。</p><br>自家焙煎コーヒーと手作りスイーツで、穏やかな時間をお過ごしください。</p>
+            <h2>About Us</h2>
+            <p>TNGCafeは自然の香りに包まれたリラックス空間を提供しています。<br>自家焙煎コーヒーと手作りスイーツで、穏やかな時間をお過ごしください。</p>
             <img src="kafe.jpg" alt="カフェの写真">
+        </section>
+
         <section id="menu">
             <h2>Menu</h2>
-            <div>
-                <img src="coffee.jpg" alt="ブレンドコーヒー">
-                <p>ブレンドコーヒー</p>
-            </div>
-            <div>
-                <img src="cake.jpg" alt="ケーキ">
-                <p>ベイクドチーズケーキ</p>
-            </div>
-            <div>
-                <img src="tea.jpg" alt="ラテ">
-                <p>カフェラテ</p>
+            <div class="menu-list">
+                <div class="menu-card">
+                    <img src="coffee.png" alt="ブレンドコーヒー">
+                    <p>ブレンドコーヒー</p>
+                </div>
+                <div class="menu-card">
+                    <img src="cake.png" alt="ベイクドチーズケーキ">
+                    <p>ベイクドチーズケーキ</p>
+                </div>
+                <div class="menu-card">
+                    <img src="coferate.png" alt="カフェラテ">
+                    <p>カフェラテ</p>
+                </div>
             </div>
         </section>
+
         <section id="contact">
             <h2>Contact</h2>
-            <from>
-                <div>
-                    <label>お名前：</label>
-                    <input type="text">
+            <form>
+                <div class="form-group">
+                    <label for="name">お名前：</label>
+                    <input type="text" id="name" name="name">
                 </div>
-                <div>
-                    <label>メールアドレス：</label>
-                    <input type="email">
+                <div class="form-group">
+                    <label for="email">メールアドレス：</label>
+                    <input type="email" id="email" name="email">
                 </div>
-                <div>
-                    <label>お問い合わせ内容：</label>
-                    <textarea></textarea>
+                <div class="form-group">
+                    <label for="message">お問い合わせ内容：</label>
+                    <textarea id="message" name="message"></textarea>
                 </div>
                 <button type="submit">送信</button>
-            </from>>
+            </form>
         </section>
     </main>
+
     <footer>
-        <small>&copy; 2000 TNG CAFE</small>
+        <small>&copy; 2000 TNG Cafe</small>
     </footer>
+
 </body>
 </html>
